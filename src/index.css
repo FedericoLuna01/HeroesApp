@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'BADABB';
+    src: local('BADABB'),
+        url('./fonts/badaboom_bb/BADABB__.TTF') format('truetype');
+    font-weight: bold;
+}
+
+.badaboom {
+    font-family: 'BADABB';
+}
+
+.bg-login {
+    background-image: url('../assets/bg-login.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.login__title {
+    font-size: 6vmax
+}
