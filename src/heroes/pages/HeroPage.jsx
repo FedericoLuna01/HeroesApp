@@ -22,21 +22,21 @@ export const HeroPage = () => {
   return (
     <div className="mt-5 row animate__animated animate__fadeInLeftBig">
       <div className="col-4">
-        <img src={`/assets/heroes/${hero.id}.jpg`} alt={hero.id} className="img-thumbnail"/>
+        <img src={`/heroes/${hero.id}.jpg`} alt={hero.id} className="img-thumbnail"/>
       </div>
       <div className="col-8">
         <h3>{superhero}</h3>
         <ul className="list-group list-group-flush">
           <li className="list-group-item"><b>Alter ego:</b> {alter_ego}</li>
-          <li className="list-group-item"><b>Publisher:</b> {publisher}</li>
-          <li className="list-group-item"><b>First appearance:</b> {first_appearance}</li>
+          <li className="list-group-item"><b>Editor:</b> {publisher}</li>
+          <li className="list-group-item"><b>Primera aparición:</b> {first_appearance}</li>
         </ul>
         <h5 className="mt-3">Characters</h5>
         <p>{characters}</p>
         <button
           className="btn btn-outline-primary"
           onClick={ onNavigateBack }
-        >Back</button>
+        >Volver</button>
       </div>
     </div>
   )
