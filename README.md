@@ -10,7 +10,7 @@ Este es un proyecto del curso de Udemy de Fernando Herrera. En el se usa Tailwin
 
 En esta página web se puede ver y buscar información sobre superheroes de Marvel y DC.
 
-[Sitio web](https://moviesallnight.netlify.app)
+[Sitio web](https://encontratuheroe.netlify.app/)
 
 [Repositorio](https://github.com/FedericoLuna01/HeroesApp)
 
