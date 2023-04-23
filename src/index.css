@@ -10,7 +10,7 @@
 }
 
 .bg-login {
-    background-image: url('../assets/bg-login.jpg');
+    background-image: url('/bg-login.jpg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
